@@ -2,3 +2,4 @@ server:
   image: sjoerdmulder/teamcity
   ports:
     - "8111:8111"
+  restart: always
